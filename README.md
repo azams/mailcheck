@@ -1,4 +1,4 @@
-Account verifier
+```Account verifier
 Usage:
 	-s		- Define Custom SMTP server.
 			    If the value is empty, it will check based on email domain.
@@ -14,4 +14,4 @@ Usage:
 Example 1 : ./check -s smtp.example.com -p 587 -f lists.txt -d '|'
 Example 2 : ./check -f lists.txt -d '|'
 Example 3 : ./check -f lists.txt -d '|' -x aol,gmail,icloud
-Example 4 : ./check -f lists.txt -d '|' -s https://target.com -m wordpress
+Example 4 : ./check -f lists.txt -d '|' -s https://target.com -m wordpress```
